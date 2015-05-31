@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "Writing Maintainable JavaScript";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var links = new List<KeyValuePair<string, string>>()
+    {
+        
+        new KeyValuePair<string, string>("Empty", "Empty"),
+        new KeyValuePair<string, string>("BasicFunctions", "Functions"),
+        new KeyValuePair<string, string>("UndefinedVsNull", "Undefined and Null" ),
+        new KeyValuePair<string, string>("Falsy", "Falsy"),
+        new KeyValuePair<string, string>("FeatureTesting", "Feature Testing"),
+        new KeyValuePair<string, string>("VariableScope", "Variable Scope"),
+        new KeyValuePair<string, string>("Hoisting", "Variable Hoisting"),
+        new KeyValuePair<string, string>("OptionalParameters", "Optional Params"),
+        new KeyValuePair<string, string>("Objects", "The problem with new"),
+        new KeyValuePair<string, string>("Prototype", "Pros and Cons of Prototype"),
+        new KeyValuePair<string, string>("CurlyBraces", "Curly Braces"),
+        new KeyValuePair<string, string>("Namespaces", "Namespaces"),
+        new KeyValuePair<string, string>("with", "with"),
+        new KeyValuePair<string, string>("SingletonPattern", "Singleton Pattern"),
+        new KeyValuePair<string, string>("ModulePattern", "Module Pattern"), 
+        new KeyValuePair<string, string>("FactoryPattern", "Factory Pattern")               
+    };
+
+    var currentKV = links.FirstOrDefault(l => l.Key == Request.QueryString["js"]);
+    KeyValuePair<string, string> next = default(KeyValuePair<string, string>);
+    KeyValuePair<string, string> prev = default(KeyValuePair<string, string>);
+    if (currentKV.Equals(default(KeyValuePair<string, string>)))
+    {
+        currentKV = links.FirstOrDefault();
+    }
+
+    var indexOfKV = links.IndexOf(currentKV);
+    if (indexOfKV > 0)
+    {
+        prev = links[indexOfKV - 1];
+    }
+    if (indexOfKV < links.Count - 1)
+    {
+        next = links[indexOfKV + 1];
+    }
+
+    var jsText = File.ReadAllText(Server.MapPath("~/Scripts/Example/" + currentKV.Key + ".js"));
+    
+}
+
+@if (!prev.Equals(default(KeyValuePair<string, string>)))
+{
+    <span class="jsLink"><a href="@Url.Action("Example", "Home", new { js = prev.Key })">
+        Prev</a></span>
+}
+@if (!next.Equals(default(KeyValuePair<string, string>)))
+{
+    <span class="jsLink"><a href="@Url.Action("Example", "Home", new { js = next.Key })">
+        Next</a></span>
+}
+<h2>
+    @currentKV.Value
+</h2>
+<h3>
+    console.log output <button id="btnRun">
+    Run JavaScript</button></h3>
+<div id="consoleOutput">
+</div>
+
+    
+<br/>
+<textarea id="codeMirror" rows="5">@jsText</textarea>
+
+<div id="playground">
+</div>
+
+<br />
+<br />
+@foreach (var kv in links)
+{
+    <span class="jsLink"><a href="@Url.Action("Example", "Home", new { js = kv.Key })">@kv.Value</a></span>
+}
+<link rel="stylesheet" href="@Url.Content("~/Scripts/ThirdParty/CodeMirror/lib/codemirror.css")" />
+<script src="@Url.Content("~/Scripts/ThirdParty/CodeMirror/lib/codemirror.js")"></script>
+<script src="@Url.Content("~/Scripts/ThirdParty/CodeMirror/mode/javascript/javascript.js")"></script>
+<script src="@Url.Content("~/Scripts/ThirdParty/CodeMirror/lib/util/simple-hint.js")"></script>
+<script src="@Url.Content("~/Scripts/ThirdParty/CodeMirror/lib/util/javascript-hint.js")"></script>
+<link rel="Stylesheet" href="@Url.Content("~/Scripts/ThirdParty/CodeMirror/lib/util/simple-hint.css")" />
+<link rel="stylesheet" href="@Url.Content("~/Scripts/ThirdParty/CodeMirror/theme/eclipse.css")" />
+<style type="text/css">
+    .CodeMirror
+    {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    .CodeMirror-scroll
+    {
+        height: auto; overflow: visible;
+    }
+</style>
+<script type="text/javascript" src="@Url.Content("~/Scripts/Home/Example.js")" ></script>
+<script type="text/javascript" src="@Url.Content("~/Scripts/Example/" + @currentKV.Key + ".js")" ></script>

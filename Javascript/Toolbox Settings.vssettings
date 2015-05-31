@@ -1,0 +1,746 @@
+<UserSettings>
+	<ApplicationIdentity version="11.0"/>
+	<ToolsOptions/>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_Toolbox" Category="{481999F2-7479-4e03-83D5-BE808BA142DF}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_Toolbox" PackageName="Visual Studio Environment Package">
+			<PropertyValue name="ShowAllTabs">true</PropertyValue>
+			<PropertyValue name="Version">1</PropertyValue>
+			<PropertyValue name="DeletedTabCount">0</PropertyValue>
+			<PropertyValue name="Tab0.ID">WindowsUIXaml Common</PropertyValue>
+			<PropertyValue name="Tab0.Name">Common XAML Controls</PropertyValue>
+			<PropertyValue name="Tab0.View">1</PropertyValue>
+			<PropertyValue name="Tab0.UseDefaultName">true</PropertyValue>
+			<PropertyValue name="Tab0.RecordType">8</PropertyValue>
+			<PropertyValue name="Tab1.ID">JSTalk</PropertyValue>
+			<PropertyValue name="Tab1.Name">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Tab1.View">0</PropertyValue>
+			<PropertyValue name="Tab1.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab1.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab1.Position">62</PropertyValue>
+			<PropertyValue name="Tab1.OriginalName">JSTalk</PropertyValue>
+			<PropertyValue name="Tab2.ID">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Tab2.Name">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Tab2.View">0</PropertyValue>
+			<PropertyValue name="Tab2.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Tab2.RecordType">1</PropertyValue>
+			<PropertyValue name="Tab2.Position">63</PropertyValue>
+			<PropertyValue name="Tab2.OriginalName">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="TabCount">3</PropertyValue>
+			<PropertyValue name="DeletedItemCount">0</PropertyValue>
+			<PropertyValue name="Item0.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item0.ID">DD2EA522B29DDB610F69101417D65DE6</PropertyValue>
+			<PropertyValue name="Item0.Name">Basics - 1.1 - Variables</PropertyValue>
+			<PropertyValue name="Item0.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item0.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item0.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item0.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item0.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item0.RecordType">1</PropertyValue>
+			<PropertyValue name="Item0.Data">var x = 99;
+var name = "Paul";</PropertyValue>
+			<PropertyValue name="Item0.Position">1</PropertyValue>
+			<PropertyValue name="Item1.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item1.ID">10FA0D520C9FD856E01642A64C79B1E6</PropertyValue>
+			<PropertyValue name="Item1.Name">Basics - 1.2 - Function</PropertyValue>
+			<PropertyValue name="Item1.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item1.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item1.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item1.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item1.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item1.RecordType">1</PropertyValue>
+			<PropertyValue name="Item1.Data">function foo() {
+    console.log("Hello World");
+}
+
+foo();</PropertyValue>
+			<PropertyValue name="Item1.Position">2</PropertyValue>
+			<PropertyValue name="Item2.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item2.ID">E71E1F44152D295FADD9372CF16256D3</PropertyValue>
+			<PropertyValue name="Item2.Name">Basics - 1.3 - Function</PropertyValue>
+			<PropertyValue name="Item2.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item2.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item2.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item2.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item2.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item2.RecordType">1</PropertyValue>
+			<PropertyValue name="Item2.Data">function funcWithArg(a, b) {
+    return a + b;
+}
+
+console.log(funcWithArg(10, 20));</PropertyValue>
+			<PropertyValue name="Item2.Position">3</PropertyValue>
+			<PropertyValue name="Item3.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item3.ID">DA371AA48857591ADC43DF8CA863055F</PropertyValue>
+			<PropertyValue name="Item3.Name">Basics - 1.4 - For Loop</PropertyValue>
+			<PropertyValue name="Item3.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item3.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item3.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item3.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item3.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item3.RecordType">1</PropertyValue>
+			<PropertyValue name="Item3.Data">for (var i = 0; i &lt; 10; i++) {
+    console.log(i);
+}</PropertyValue>
+			<PropertyValue name="Item3.Position">4</PropertyValue>
+			<PropertyValue name="Item4.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item4.ID">571CE83DC523DDA5FC45B6CB08BD7F9D</PropertyValue>
+			<PropertyValue name="Item4.Name">Basics - 1.5 - If statement</PropertyValue>
+			<PropertyValue name="Item4.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item4.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item4.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item4.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item4.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item4.RecordType">1</PropertyValue>
+			<PropertyValue name="Item4.Data">if ("Name" == "Name") {
+    console.log("Names are equal");
+}</PropertyValue>
+			<PropertyValue name="Item4.Position">5</PropertyValue>
+			<PropertyValue name="Item5.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item5.ID">83572D5C761AB2DEF1192FD0817E5FCD</PropertyValue>
+			<PropertyValue name="Item5.Name">Falsy</PropertyValue>
+			<PropertyValue name="Item5.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item5.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item5.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item5.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item5.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item5.RecordType">1</PropertyValue>
+			<PropertyValue name="Item5.Data">// Falsy Values
+console.log("false: " + false);
+
+console.log("null: " + (Boolean(null)));
+
+console.log("undefined: " + Boolean(undefined));
+
+console.log("zero: " + Boolean(0));
+
+console.log("empty string: " + Boolean(""));
+
+console.log("NaN: " + Boolean(NaN));
+
+console.log("NaN == NaN: " + (NaN == NaN));
+
+// Truthy values
+
+console.log("true: " + Boolean(true));
+
+console.log("Empty Object: " + Boolean({}));
+
+console.log("Zero String: " + Boolean("0"));</PropertyValue>
+			<PropertyValue name="Item5.Position">6</PropertyValue>
+			<PropertyValue name="Item6.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item6.ID">FDC0262238DDCAEE92E0EF357724CA3B</PropertyValue>
+			<PropertyValue name="Item6.Name">Equality - 1</PropertyValue>
+			<PropertyValue name="Item6.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item6.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item6.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item6.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item6.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item6.RecordType">1</PropertyValue>
+			<PropertyValue name="Item6.Data">console.log('10' == '10');  
+console.log('10' == 10);   
+
+//console.log('10' === '10'); 
+//console.log('10' === 10);   </PropertyValue>
+			<PropertyValue name="Item6.Position">7</PropertyValue>
+			<PropertyValue name="Item7.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item7.ID">E7E10005D1D94C09D83B1F37AD9FA6A3</PropertyValue>
+			<PropertyValue name="Item7.Name">Equality - 2</PropertyValue>
+			<PropertyValue name="Item7.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item7.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item7.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item7.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item7.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item7.RecordType">1</PropertyValue>
+			<PropertyValue name="Item7.Data">if (0 == false)
+    console.log("zero is being evaluated as false");
+
+if (0 === false) {
+    console.log("zero's type is being checked");
+} else {
+    console.log("zero is not false with ===");
+}</PropertyValue>
+			<PropertyValue name="Item7.Position">8</PropertyValue>
+			<PropertyValue name="Item8.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item8.ID">D7958EECB10A04DA172324029548CB5C</PropertyValue>
+			<PropertyValue name="Item8.Name">Big Numbers - 1</PropertyValue>
+			<PropertyValue name="Item8.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item8.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item8.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item8.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item8.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item8.RecordType">1</PropertyValue>
+			<PropertyValue name="Item8.Data">console.log(100 === 100);
+console.log(10000000000000000 === 10000000000000000);
+console.log(1.0000000000000000000 === 1);</PropertyValue>
+			<PropertyValue name="Item8.Position">9</PropertyValue>
+			<PropertyValue name="Item9.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item9.ID">C689CB68328408BE9765B9C6A46B8CFD</PropertyValue>
+			<PropertyValue name="Item9.Name">Big Numbers - 2.1</PropertyValue>
+			<PropertyValue name="Item9.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item9.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item9.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item9.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item9.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item9.RecordType">1</PropertyValue>
+			<PropertyValue name="Item9.Data">/**
+ * Imagine a web server storing tweet_id reference as Long.
+ * For instance, 289455363407884288L
+ * Now, let's say I send it to javascript as JS number:
+ */
+var myWebserviceResponse = { tweetId: 289455363407884288 };
+
+console.log("https://twitter.com/greweb/status/" + myWebserviceResponse.tweetId);
+</PropertyValue>
+			<PropertyValue name="Item9.Position">10</PropertyValue>
+			<PropertyValue name="Item10.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item10.ID">43DBB18E51A242442372C8EE005C7DB8</PropertyValue>
+			<PropertyValue name="Item10.Name">Big Numbers - 2.2</PropertyValue>
+			<PropertyValue name="Item10.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item10.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item10.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item10.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item10.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item10.RecordType">1</PropertyValue>
+			<PropertyValue name="Item10.Data">// Solution
+var myWebserviceResponse = { tweetId: "289455363407884288" };
+console.log("https://twitter.com/greweb/status/" + myWebserviceResponse.tweetId)
+
+// Source: http://blog.greweb.fr/2013/01/be-careful-with-js-numbers/
+</PropertyValue>
+			<PropertyValue name="Item10.Position">11</PropertyValue>
+			<PropertyValue name="Item11.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item11.ID">E132720B51EC61633C2C78C328D42ECB</PropertyValue>
+			<PropertyValue name="Item11.Name">Undefined vs Null - 1.1</PropertyValue>
+			<PropertyValue name="Item11.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item11.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item11.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item11.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item11.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item11.RecordType">1</PropertyValue>
+			<PropertyValue name="Item11.Data">var val = 25;
+console.log("val is " + val);</PropertyValue>
+			<PropertyValue name="Item11.Position">12</PropertyValue>
+			<PropertyValue name="Item12.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item12.ID">0BE777F3B9F82E28A63113DEBE583681</PropertyValue>
+			<PropertyValue name="Item12.Name">Undefined vs Null - 1.2</PropertyValue>
+			<PropertyValue name="Item12.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item12.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item12.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item12.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item12.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item12.RecordType">1</PropertyValue>
+			<PropertyValue name="Item12.Data">var y = null;    
+console.log("y is " + y);</PropertyValue>
+			<PropertyValue name="Item12.Position">13</PropertyValue>
+			<PropertyValue name="Item13.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item13.ID">5E3BEF4989CD192D6B4BF80CB0AEA419</PropertyValue>
+			<PropertyValue name="Item13.Name">Undefined vs Null - 1.3</PropertyValue>
+			<PropertyValue name="Item13.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item13.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item13.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item13.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item13.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item13.RecordType">1</PropertyValue>
+			<PropertyValue name="Item13.Data">var x;         
+console.log("x is " + x);</PropertyValue>
+			<PropertyValue name="Item13.Position">14</PropertyValue>
+			<PropertyValue name="Item14.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item14.ID">4C0D1C2C0773D57469A13CE61437280D</PropertyValue>
+			<PropertyValue name="Item14.Name">Undefined vs Null - 1.4</PropertyValue>
+			<PropertyValue name="Item14.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item14.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item14.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item14.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item14.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item14.RecordType">1</PropertyValue>
+			<PropertyValue name="Item14.Data">var obj = { };       
+console.log("obj.undeclaredVariable is " + obj.undeclaredVariable);</PropertyValue>
+			<PropertyValue name="Item14.Position">15</PropertyValue>
+			<PropertyValue name="Item15.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item15.ID">3952857072E228800F06476920576258</PropertyValue>
+			<PropertyValue name="Item15.Name">What is Undefined?</PropertyValue>
+			<PropertyValue name="Item15.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item15.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item15.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item15.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item15.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item15.RecordType">1</PropertyValue>
+			<PropertyValue name="Item15.Data">var x;
+if (x === undefined) {
+    console.log("x is undefined");
+} else {
+    console.log("x is not undefined");
+}
+</PropertyValue>
+			<PropertyValue name="Item15.Position">16</PropertyValue>
+			<PropertyValue name="Item16.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item16.ID">020099F36DA8E6D9565B385997310212</PropertyValue>
+			<PropertyValue name="Item16.Name">Feature Testing</PropertyValue>
+			<PropertyValue name="Item16.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item16.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item16.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item16.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item16.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item16.RecordType">1</PropertyValue>
+			<PropertyValue name="Item16.Data">if (window.navigator &amp;&amp; window.navigator.geolocation) {
+    
+    console.log("Geolocation supported in browser");
+    navigator.geolocation.getCurrentPosition(successFunction);
+
+} else {
+    console.log("This browser does not support geolocation");
+}
+
+
+function successFunction(position) {
+    var lat = position.coords.latitude;
+    var lng = position.coords.longitude;
+    console.log("Lat: " + lat + " " + "Long: " + lng);
+}</PropertyValue>
+			<PropertyValue name="Item16.Position">17</PropertyValue>
+			<PropertyValue name="Item17.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item17.ID">AA310BEDC38BE3C1A365BEA79E5072E5</PropertyValue>
+			<PropertyValue name="Item17.Name">Variable Scope</PropertyValue>
+			<PropertyValue name="Item17.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item17.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item17.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item17.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item17.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item17.RecordType">1</PropertyValue>
+			<PropertyValue name="Item17.Data">var value = "Global";
+function foo() {
+    var value = "Private";
+    console.log("foo().value: " + value);
+}
+
+foo();
+console.log(value);</PropertyValue>
+			<PropertyValue name="Item17.Position">18</PropertyValue>
+			<PropertyValue name="Item18.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item18.ID">3ED7E7DB9820D68A75EA7F755737B8A0</PropertyValue>
+			<PropertyValue name="Item18.Name">Hoisting</PropertyValue>
+			<PropertyValue name="Item18.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item18.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item18.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item18.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item18.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item18.RecordType">1</PropertyValue>
+			<PropertyValue name="Item18.Data">g = "Global Value";
+function foo() {
+    //console.log(g); 
+    var g = "Local Value";
+    console.log(g); 
+}
+foo();</PropertyValue>
+			<PropertyValue name="Item18.Position">19</PropertyValue>
+			<PropertyValue name="Item19.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item19.ID">6EF880B745444E47332F8F0708CB866C</PropertyValue>
+			<PropertyValue name="Item19.Name">Optional Parameters - 1</PropertyValue>
+			<PropertyValue name="Item19.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item19.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item19.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item19.OriginalTabID">General</PropertyValue>
+			<PropertyValue name="Item19.OriginalTab">General</PropertyValue>
+			<PropertyValue name="Item19.RecordType">1</PropertyValue>
+			<PropertyValue name="Item19.Data">function createSchoolLotsOfParams(name, city, value1, value2, value3, state) {
+    /* Do something */
+}
+
+createSchoolLotsOfParams("CSUF", "Fullerton", null, null, null, "CA");
+
+</PropertyValue>
+			<PropertyValue name="Item19.Position">20</PropertyValue>
+			<PropertyValue name="Item20.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item20.ID">4A7567C1EA3E7936E9D6245EA28DACB7</PropertyValue>
+			<PropertyValue name="Item20.Name">Optional Parameters - 2</PropertyValue>
+			<PropertyValue name="Item20.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item20.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item20.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item20.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item20.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item20.RecordType">1</PropertyValue>
+			<PropertyValue name="Item20.Data">function createSchoolOptionalParams(options) {
+    var o = {
+        name: options.name,
+        city: options.city,
+        value1: options.value1,
+        value2: options.value2,
+        value3: options.value3,
+        state: options.state
+    };
+
+    // Do Something 
+    console.log(o.state);
+
+}
+
+var params = {
+    name: "CSUF",
+    city: "Fullerton",
+    state: "CA"
+};
+createSchoolOptionalParams(params);
+    </PropertyValue>
+			<PropertyValue name="Item20.Position">21</PropertyValue>
+			<PropertyValue name="Item21.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item21.ID">83BCEEB3024DF7BA74161D16FC734F03</PropertyValue>
+			<PropertyValue name="Item21.Name">Optional Parameters - 3</PropertyValue>
+			<PropertyValue name="Item21.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item21.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item21.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item21.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item21.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item21.RecordType">1</PropertyValue>
+			<PropertyValue name="Item21.Data">function createSchoolOptionalParams(options) {
+    var o = {
+        name: options.name,
+        city: options.city,
+        value1: options.value1 || "Unknown",
+        value2: options.value2 || "Unknown",
+        value3: options.value3 || "Unknown",
+        state: options.state  || "CA"
+    };
+
+    if (typeof(name) === "undefined") {
+        console.logError("name parameter cannot be undefined");
+    }
+    
+    if (typeof (city) === "undefined") {
+        console.logError("name parameter cannot be undefined");
+    }
+
+    // Do Something 
+    console.log(o.state);
+}
+
+var params = {
+    name: undefined,
+    city: "Fullerton",
+    state: "CA"
+};
+createSchoolOptionalParams(params);
+    </PropertyValue>
+			<PropertyValue name="Item21.Position">22</PropertyValue>
+			<PropertyValue name="Item22.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item22.ID">72871E35522C036E44C655C8BDCC9623</PropertyValue>
+			<PropertyValue name="Item22.Name">Object - 1.1</PropertyValue>
+			<PropertyValue name="Item22.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item22.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item22.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item22.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item22.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item22.RecordType">1</PropertyValue>
+			<PropertyValue name="Item22.Data">function Age(age) {
+    this.print = function () {
+        console.log(age);
+    };
+};
+var a1 = new Age(85);
+a1.print();</PropertyValue>
+			<PropertyValue name="Item22.Position">23</PropertyValue>
+			<PropertyValue name="Item23.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item23.ID">0FCCF51B7D4D48395A081AA561F874DF</PropertyValue>
+			<PropertyValue name="Item23.Name">Object - 1.2</PropertyValue>
+			<PropertyValue name="Item23.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item23.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item23.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item23.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item23.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item23.RecordType">1</PropertyValue>
+			<PropertyValue name="Item23.Data">var a2 = Age(15);
+a2.print();</PropertyValue>
+			<PropertyValue name="Item23.Position">24</PropertyValue>
+			<PropertyValue name="Item24.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item24.ID">E6EED2160CA43CB9A75DBAEBBB50FEF8</PropertyValue>
+			<PropertyValue name="Item24.Name">Object - 1.3</PropertyValue>
+			<PropertyValue name="Item24.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item24.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item24.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item24.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item24.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item24.RecordType">1</PropertyValue>
+			<PropertyValue name="Item24.Data">if (!(this instanceof Age)) {
+        return new Age(age);
+    }</PropertyValue>
+			<PropertyValue name="Item24.Position">25</PropertyValue>
+			<PropertyValue name="Item25.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item25.ID">FA48C3F9793D2376069B7DBD70C39DEB</PropertyValue>
+			<PropertyValue name="Item25.Name">Curley Braces</PropertyValue>
+			<PropertyValue name="Item25.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item25.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item25.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item25.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item25.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item25.RecordType">1</PropertyValue>
+			<PropertyValue name="Item25.Data">function goodCurlyBraces() {
+    return {
+        something: 10
+    };
+}
+console.log(goodCurlyBraces()); 
+
+function badCurlyBraces() {
+    return
+    {
+        something: 10
+    };
+}
+console.log(badCurlyBraces()); </PropertyValue>
+			<PropertyValue name="Item25.Position">26</PropertyValue>
+			<PropertyValue name="Item26.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item26.ID">A551F54D92CA85CBB3B30ACFA10A1D73</PropertyValue>
+			<PropertyValue name="Item26.Name">Namespaces - 1.1</PropertyValue>
+			<PropertyValue name="Item26.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item26.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item26.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item26.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item26.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item26.RecordType">1</PropertyValue>
+			<PropertyValue name="Item26.Data">var MyObject = function() {
+    this.Name = "Paul Mendoza";
+};
+
+var MyObject = function() {
+    this.Name = "Not Paul Mendoza";
+};
+
+var o = new MyObject();
+// We want to see "Paul Mendoza" printed out.
+console.log(o.Name); </PropertyValue>
+			<PropertyValue name="Item26.Position">27</PropertyValue>
+			<PropertyValue name="Item27.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item27.ID">577076FF5ACCA1FAD13B247C77C6E7E6</PropertyValue>
+			<PropertyValue name="Item27.Name">Namespaces - 1.2</PropertyValue>
+			<PropertyValue name="Item27.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item27.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item27.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item27.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item27.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item27.RecordType">1</PropertyValue>
+			<PropertyValue name="Item27.Data">var My = My || {};
+My.Wonderful = My.Wonderful || {};
+My.Wonderful.Namespace = My.Wonderful.Namespace || {};</PropertyValue>
+			<PropertyValue name="Item27.Position">28</PropertyValue>
+			<PropertyValue name="Item28.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item28.ID">E5B0BE0F7C2B84697A0AFDAEC985C615</PropertyValue>
+			<PropertyValue name="Item28.Name">Prototype - 1.1</PropertyValue>
+			<PropertyValue name="Item28.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item28.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item28.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item28.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item28.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item28.RecordType">1</PropertyValue>
+			<PropertyValue name="Item28.Data">function Car() {
+    this.distanceDriven = 0;
+    this.drive = function (distance) {
+        this.distanceDriven += distance;
+    };
+}
+
+var c1 = new Car();
+c1.drive(100);
+c1.drive(55);
+console.log("Distance driven: " + c1.distanceDriven);
+
+var c2 = new Car();
+c2.drive(10);
+c2.drive(8);
+console.log("Distance driven: " + c2.distanceDriven);
+
+var c3 = new Car();
+c3.drive(10);
+console.log("Distance driven: " + c3.distanceDriven);</PropertyValue>
+			<PropertyValue name="Item28.Position">29</PropertyValue>
+			<PropertyValue name="Item29.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item29.ID">59C2D0D3F9308B86796515A3D978CFB5</PropertyValue>
+			<PropertyValue name="Item29.Name">Prototype - 1.2</PropertyValue>
+			<PropertyValue name="Item29.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item29.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item29.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item29.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item29.OriginalTab">JSTalk</PropertyValue>
+			<PropertyValue name="Item29.RecordType">1</PropertyValue>
+			<PropertyValue name="Item29.Data">Car.prototype.drive = function (distance) {
+    this.distanceDriven += distance;
+};</PropertyValue>
+			<PropertyValue name="Item29.Position">30</PropertyValue>
+			<PropertyValue name="Item30.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item30.ID">8CF86EE0B14D1EC75514EBCDFD182C27</PropertyValue>
+			<PropertyValue name="Item30.Name">Pattern - Chaining</PropertyValue>
+			<PropertyValue name="Item30.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item30.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item30.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item30.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item30.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item30.RecordType">1</PropertyValue>
+			<PropertyValue name="Item30.Data">var math = {
+    value: 1, 
+    print: function() {
+        console.log(this.value);
+        return this;
+    },   
+    multiply: function (amount) {
+        this.value *= amount;
+        return this;
+    },
+    subtract: function(amount) {
+        this.value -= amount;
+        return this;
+    }
+    
+};
+
+math.multiply(10).print().subtract(5).print().subtract(1).print();</PropertyValue>
+			<PropertyValue name="Item30.Position">31</PropertyValue>
+			<PropertyValue name="Item31.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item31.ID">CB32F453744D68BB9B95D9C9FB86410E</PropertyValue>
+			<PropertyValue name="Item31.Name">Immediate Function</PropertyValue>
+			<PropertyValue name="Item31.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item31.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item31.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item31.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item31.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item31.RecordType">1</PropertyValue>
+			<PropertyValue name="Item31.Data">(function immediatelyInvokedFunction() {
+    console.log("Invoked immediately");
+})();</PropertyValue>
+			<PropertyValue name="Item31.Position">32</PropertyValue>
+			<PropertyValue name="Item32.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item32.ID">EE9F5C5C1CB1843530411775B3DCDB60</PropertyValue>
+			<PropertyValue name="Item32.Name">Pattern - Module - 1</PropertyValue>
+			<PropertyValue name="Item32.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item32.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item32.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item32.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item32.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item32.RecordType">1</PropertyValue>
+			<PropertyValue name="Item32.Data">var module = (function foo() {
+    var m = {};
+
+    function privateMethod() {
+    }
+
+    m.publicMethod = function() {
+        
+    };
+
+    return m;
+})();</PropertyValue>
+			<PropertyValue name="Item32.Position">33</PropertyValue>
+			<PropertyValue name="Item33.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item33.ID">A368B14E1B146BEC01FE8865731133B1</PropertyValue>
+			<PropertyValue name="Item33.Name">Pattern - Module - 2 - Augmentation</PropertyValue>
+			<PropertyValue name="Item33.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item33.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item33.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item33.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item33.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item33.RecordType">1</PropertyValue>
+			<PropertyValue name="Item33.Data">var module = (function foo(m) {
+    
+    m.publicMethod = function() {
+        
+    };
+
+    return m;
+})(module || {});
+</PropertyValue>
+			<PropertyValue name="Item33.Position">34</PropertyValue>
+			<PropertyValue name="Item34.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item34.ID">22F6EB76E3EE9E957E74BCFF02D0956C</PropertyValue>
+			<PropertyValue name="Item34.Name">Pattern - Singleton</PropertyValue>
+			<PropertyValue name="Item34.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item34.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item34.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item34.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item34.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item34.RecordType">1</PropertyValue>
+			<PropertyValue name="Item34.Data">function Singleton() {
+    if (!(this instanceof Singleton)) {
+        return new Singleton();
+    }
+
+    if (typeof Singleton.self === "object") {
+        return Singleton.self;
+    }
+    this.someValue = 0;
+    this.someValue2 = "Paul Mendoza";
+    this.someFunc = function () { };
+    Singleton.self = this;
+};
+
+var s1 = new Singleton();
+s1.someValue = 100;
+
+var s2 = new Singleton();
+
+console.log(s2.someValue);</PropertyValue>
+			<PropertyValue name="Item34.Position">35</PropertyValue>
+			<PropertyValue name="Item35.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item35.ID">7056C3727F7DA7820270846262420158</PropertyValue>
+			<PropertyValue name="Item35.Name">Pattern - Events</PropertyValue>
+			<PropertyValue name="Item35.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item35.Tab">JSTalk</PropertyValue>
+			<PropertyValue name="Item35.TabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item35.OriginalTabID">JSTalk</PropertyValue>
+			<PropertyValue name="Item35.OriginalTab">JSTalk - Fundamentals</PropertyValue>
+			<PropertyValue name="Item35.RecordType">1</PropertyValue>
+			<PropertyValue name="Item35.Data">// jQuery uses this pattern for event registration.
+var Person = function() {
+    if (!(this instanceof Person)) {
+        return new Person();
+    }
+
+    var _walkCallbacks = [];
+    this.walk = function(callback) {
+        if (typeof(callback) !== "function") {
+            for (var i = 0; i &lt; _walkCallbacks.length; i++) {
+                _walkCallbacks[i]();
+            }
+        } else {
+            _walkCallbacks.push(callback);
+        }
+    };
+    return this;
+};
+
+var p = new Person();
+
+p.walk(function() { console.log("Event 1"); });
+p.walk(function () { console.log("Event 2"); });
+
+p.walk();
+p.walk();
+p.walk();</PropertyValue>
+			<PropertyValue name="Item35.Position">36</PropertyValue>
+			<PropertyValue name="Item36.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item36.ID">E3F71F7ADB828E84476012376E1ED1CA</PropertyValue>
+			<PropertyValue name="Item36.Name">Bundling - 1.1</PropertyValue>
+			<PropertyValue name="Item36.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item36.Tab">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item36.TabID">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item36.OriginalTabID">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item36.OriginalTab">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item36.RecordType">1</PropertyValue>
+			<PropertyValue name="Item36.Data">CreateJsBundle();</PropertyValue>
+			<PropertyValue name="Item36.Position">1</PropertyValue>
+			<PropertyValue name="Item37.DataProvider">{0A057BAD-6706-45D2-A800-683A29EC6BA3}</PropertyValue>
+			<PropertyValue name="Item37.ID">1FC27CB9025D045D26EFF8115140C6A7</PropertyValue>
+			<PropertyValue name="Item37.Name">Bundling - 1.2</PropertyValue>
+			<PropertyValue name="Item37.UseDefaultName">false</PropertyValue>
+			<PropertyValue name="Item37.Tab">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item37.TabID">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item37.OriginalTabID">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item37.OriginalTab">JSTalk - .NET specific</PropertyValue>
+			<PropertyValue name="Item37.RecordType">1</PropertyValue>
+			<PropertyValue name="Item37.Data">private void CreateJsBundle()
+        {
+            var demoBundle = new Bundle("~/Bundles/Demo", new JsMinify())
+                .IncludeDirectory("~/Scripts/Demo", "*.js");
+            BundleTable.Bundles.Add(demoBundle);
+        }</PropertyValue>
+			<PropertyValue name="Item37.Position">2</PropertyValue>
+			<PropertyValue name="ItemCount">38</PropertyValue>
+		</Category>
+	</Category>
+</UserSettings>
