@@ -24,11 +24,18 @@ Created an application from scratch using AngularJS. This is a single page appli
 
 Development experience on both front end and backend. 
 
-(1 min) Our Goal
+(3 min) Our Goal
 --------
 - Quick introduction to the basics of AngularJS.
 - Why AngularJS is useful compared to alterntiaves
 - Advanced topics you should know will be most of the talk 
+- Q: How many have used AngularJS before?
+- Q: How many have used AngularJS on an existing application?
+- Q: How many have used AngularJS to build an single page application?
+- Development Enviornment
+	- Visual Studio Code IDE
+	- NodeJS for server
+	- TypeScript for intellisense
 
 (5 mins) Why AngularJS?
 --------------
@@ -36,8 +43,8 @@ Development experience on both front end and backend.
 - Complete framework to build an app. 
 - You could build an entire app with AngularJS
 - Don't need any jQuery (ie finding things by IDs)
-- Less JavaScript for trivial data binding tasks
-- Use HTML to define data layout meaning easier for designers
+- Less JavaScript
+- Easier for designers - HTML to define data layout meaning easier for designers
 - Bind user interfaces directly to POJO (Plain Old JavaScript Objects) 
 - Write less code
 - Easy to get started with
@@ -45,10 +52,10 @@ Development experience on both front end and backend.
 
 (5 mins) AngularJS Basics
 ----------------
-- **Open "SimpleForm.html" file**
+- **Open SimpleForm**
 - Goal: As you type your name in, it should display "Hello [your name]"
-- notice importing AngularJS 
-- notice ng-app tag
+- notice importing AngularJS, only framework you need
+- notice ng-app tag, explain angularJS application
 add "ng-model="yourName"" to input field
 - add "{{yourName}}"
 - text field
@@ -58,7 +65,7 @@ add "ng-model="yourName"" to input field
 - Advanced ** show debounce**
 	- Useful when posting requests to a server as the user types. 
 
-(5 mins) AngularJS Form 2
+(10 mins) Form Validation
 ------------------
 - **Open SimpleForm2**
 - notice form with submit button
@@ -70,6 +77,29 @@ add "ng-model="yourName"" to input field
 - demo button being disabled
 - add coloring of field
 - add the status fields
+
+(15 mins) Controllers, Binding and more
+-----------------
+- AngularJS is an MVC framework and all we've dealt with is the View part of MVC
+- explain **ng-app="myApp"**
+- explain the **ng-controller="myController"** syntax and show controller
+- explain basics of scope
+- demo **{{name}}** binding scenario
+	- explain setting $scope on the backend
+- demo **event handler** scenario
+	- explain **ng-click**
+- demo **json** scenario
+	 - explain **ng-repeat**
+- demo **$http request for json** scenario
+	 - explain $http	
+
+Scope Inheritance Demo
+----------------------
+- explain the concept of $scope
+	- The application model. 
+	- Context for expressions. 
+	- Arranged in a hierarchy
+	- Scopes can watch expressions and propagate events
 
 
 Form validation
@@ -111,4 +141,8 @@ If writing $(element) in controller you need a directive
 	
 Summary
 ------
-We learned about faster one directional binding, how to properly build links, factories and services, handling minification and many other topics which should have an immediate benefit to any AngularJS application you build.
+- thank you
+- what we learned
+	- form validation
+	- blur vs debounce
+	-  

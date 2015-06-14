@@ -30,15 +30,48 @@ ng-disabled="!form2.$valid"
 
 Basic Controller Examples
 -------------------------
+$scope.name = "Paul Mendoza";
+
+{{name}}
+
+// event binding
+$scope.sayHello = function() {
+		  alert('Hello');		  
+	  };
+
+<button ng-click="sayHello()">Click to say hello!</button>
+
+// Binding JSON
+$scope.users = [
+		  { name : 'Thor Odinson'},
+		  { name : 'Tony Stark'},
+		  { name : 'Bruce Banner'},
+		  { name : 'Steve Rogers'},
+		  { name : 'Clinton Barton'}		  
+	  ];
+
 <ul>
 	<li ng-repeat="user in users">
 		{{user.name}}
 	</li>			
 </ul>
 
-
-
-$http.get('/json/users.json')
+// http
+$http.get('/examples/basicController/users.json')
         .success(function(json) {
            $scope.users = json;
         });
+		
+// more details for users
+<br/>
+Age: {{user.age}}
+<br>
+<b>Friends</b>
+<ul>
+	<li ng-repeat="f in user.friends">
+		{{f.name}}
+	</li>
+</ul>
+
+
+
