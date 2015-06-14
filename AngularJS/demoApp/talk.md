@@ -109,6 +109,9 @@ Scopes Repeaters 2
 - add {{counter}} to each button
 - set the default value for the counter to 27
 
+Scopes - watchers
+------------------
+- scenario: sometimes you need to watch a property for changes and do something behind the
 
 Controller Service/Factor Injectiong and Minification
 -----------------------------------------------

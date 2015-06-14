@@ -87,3 +87,6 @@ $scope.nameObj.name = 'bottom';
 Scope on ng-repeat
 -----------------
 {{counter}}
+
+Scopes 3 - watchers
+-------------------
