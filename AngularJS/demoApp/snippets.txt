@@ -77,4 +77,13 @@ Scopes
 ----------
 {{name}}
 
+$scope.nameObj = { name : 'top' };
 
+$scope.nameObj.name = 'bottom';
+
+{{nameObj.name}}
+{{nameObj.name}}
+
+Scope on ng-repeat
+-----------------
+{{counter}}

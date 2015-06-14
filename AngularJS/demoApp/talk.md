@@ -101,12 +101,21 @@ Scope Inheritance Demo
 	- Arranged in a hierarchy
 	- Scopes can watch expressions and propagate events
 
+Scopes Repeaters 2
+------------------
+- open code, show code and then open page to see it. Click and notice nothing happens.
+- Q: What will happen?
+- explain ng-repeat and scopes
+- add {{counter}} to each button
+- set the default value for the counter to 27
+
+
 Controller Service/Factor Injectiong and Minification
 -----------------------------------------------
 - DON'T SHOW DEMO YET!!!
 - Show the javascript and html first.
 - Q: What do you do you think the third {{name}} will have printed to the screen?
-
+- show how an object can be modified up the chain
 
 Form validation
 ---------------
