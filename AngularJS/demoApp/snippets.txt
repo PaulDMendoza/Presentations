@@ -90,3 +90,64 @@ Scope on ng-repeat
 
 Scopes 3 - watchers
 -------------------
+
+$scope.changes = [];
+
+$scope.$watch('counter', function(newValue, oldValue) {
+$scope.changes.push({newValue: newValue, oldValue: oldValue});
+});
+
+
+<div ng-repeat="v in changes">
+	{{v.oldValue}} to {{v.newValue}}
+</div>
+
+
+// part 2 -  watcher count
+$scope.changes = [];
+// I want to do something every time the counter changes...
+$scope.$watch('counter', function(newValue, oldValue) {
+$scope.changes.push({ 
+  newValue: newValue, 
+  oldValue: oldValue, 
+  watcherCount: totalWatchersOnPage() 
+});
+});
+
+
+function totalWatchersOnPage() {
+  var root = angular.element(document.getElementsByTagName('body'));
+
+    var watchers = [];
+
+    var f = function (element) {
+        angular.forEach(['$scope', '$isolateScope'], function (scopeProperty) { 
+            if (element.data() && element.data().hasOwnProperty(scopeProperty)) {
+                angular.forEach(element.data()[scopeProperty].$$watchers, function (watcher) {
+                    watchers.push(watcher);
+                });
+            }
+        });
+
+        angular.forEach(element.children(), function (childElement) {
+            f(angular.element(childElement));
+        });
+    };
+
+    f(root);
+
+    // Remove duplicate watchers
+    var watchersWithoutDuplicates = [];
+    angular.forEach(watchers, function(item) {
+        if(watchersWithoutDuplicates.indexOf(item) < 0) {
+             watchersWithoutDuplicates.push(item);
+        }
+    });
+    return watchersWithoutDuplicates.length;
+}
+
+
+<div ng-repeat="v in changes">
+	{{v.oldValue}} to {{v.newValue}} and total watchers {{v.watcherCount}}
+</div>
+

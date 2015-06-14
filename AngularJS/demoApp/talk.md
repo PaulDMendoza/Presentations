@@ -111,7 +111,12 @@ Scopes Repeaters 2
 
 Scopes - watchers
 ------------------
-- scenario: sometimes you need to watch a property for changes and do something behind the
+- scenario: sometimes you need to watch a property for changes
+- explain how watchers work
+	- if not bound to the UI, a watcher isn't generated
+- demo watcher example of new and old value
+- demo watcher count example
+- demo :: fast binding syntax and demo
 
 Controller Service/Factor Injectiong and Minification
 -----------------------------------------------
