@@ -1,0 +1,44 @@
+Simple Form Examples 
+--------------------
+ng-model="yourName"
+
+<h1>Hello {{yourName}}!</h1>
+
+ng-model-options="{ updateOn: 'blur' }"
+
+ng-model-options="{ debounce: 500 }"
+
+
+Simple Form 2 Examples
+----------------------
+// Name field
+ng-model="name" name="name"
+
+required minlength="10"
+
+ng-style="{'background-color': form2.name.$valid ? '' : 'pink' }"
+
+// Button tag
+ng-disabled="!form2.$valid"
+
+<br/>
+<code>name = {{name}}</code><br>
+<code>form2.name.$valid = {{form2.name.$valid}}</code><br>
+<code>form2.name.$error = {{form2.name.$error}}</code><br>
+<code>form2.$valid = {{form2.$valid}}</code><br>
+<code>form2.$error.required = {{!!form2.$error.required}}</code><br>
+
+Basic Controller Examples
+-------------------------
+<ul>
+	<li ng-repeat="user in users">
+		{{user.name}}
+	</li>			
+</ul>
+
+
+
+$http.get('/json/users.json')
+        .success(function(json) {
+           $scope.users = json;
+        });

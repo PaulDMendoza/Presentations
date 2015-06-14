@@ -54,6 +54,9 @@ add "ng-model="yourName"" to input field
 - text field
 - typing in field shows 
 - jQuery vs this example
+- Advanced: **show on blur** ng-model-options="{ updateOn: 'blur' }"
+- Advanced ** show debounce**
+	- Useful when posting requests to a server as the user types. 
 
 (5 mins) AngularJS Form 2
 ------------------
@@ -61,6 +64,12 @@ add "ng-model="yourName"" to input field
 - notice form with submit button
 - notice "ng-submit" logic to increment counter
 - GOAL: Prevent form submission until at least 5 characters in textbox
+- add "required minlength="10"" to the input field
+- demo form not being submitted
+- add ng-disabled="form2.$error" to button to disable submit button
+- demo button being disabled
+- add coloring of field
+- add the status fields
 
 
 Form validation

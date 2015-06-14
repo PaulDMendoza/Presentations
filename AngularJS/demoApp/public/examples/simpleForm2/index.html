@@ -6,11 +6,11 @@
 	<body>
 		<div>
 			<h1>Demo: Form Validation</h1>
-		  <form name="form2" ng-submit="submitCount = submitCount + 1;">
+		  <form name="form2" ng-submit="submitCount = submitCount + 1;" novalidate>
 		    <label>Name:</label>
-		    <input type="text" placeholder="Enter a name here" required minlength="10">
+		    <input type="text" placeholder="Enter a name here" />
 			<br/>
-		    <button type="submit" ng-disabled="form2.$error">Submit</button> {{submitCount}}
+			<button type="submit">Submit</button> {{submitCount}}
 		  </form>
 		</div>
 	</body>
