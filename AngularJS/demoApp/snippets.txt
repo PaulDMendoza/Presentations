@@ -151,3 +151,15 @@ function totalWatchersOnPage() {
 	{{v.oldValue}} to {{v.newValue}} and total watchers {{v.watcherCount}}
 </div>
 
+Scopes - Apply/Digest
+---------------------
+$scope.$apply();
+
+if(!$scope.$root.$$phase) {
+	$scope.$apply();
+}
+
+$interval(function() {
+	$scope.counter = $scope.counter + 1;
+	console.log("Counter: " + $scope.counter);
+},1000);

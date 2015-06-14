@@ -95,6 +95,7 @@ add "ng-model="yourName"" to input field
 
 Scope Inheritance Demo
 ----------------------
+- **scopes** folder
 - explain the concept of $scope
 	- The application model. 
 	- Context for expressions. 
@@ -103,14 +104,22 @@ Scope Inheritance Demo
 
 Scopes Repeaters 2
 ------------------
+-**scopes2** folder
 - open code, show code and then open page to see it. Click and notice nothing happens.
 - Q: What will happen?
 - explain ng-repeat and scopes
 - add {{counter}} to each button
 - set the default value for the counter to 27
+- things that make new scopes
+	- ng-controller
+	- ng-form
+	- ng-repeat
+	- ng-switch
+	- ng-view
 
 Scopes - watchers
 ------------------
+- **scopes3** folder
 - scenario: sometimes you need to watch a property for changes
 - explain how watchers work
 	- if not bound to the UI, a watcher isn't generated
@@ -118,6 +127,20 @@ Scopes - watchers
 - demo watcher example of new and old value
 - demo watcher count example
 - demo :: fast binding syntax and demo
+
+Scopes - Apply/Digest
+----------------------
+- **scopes4** folder
+- demo the counter not incementing but the console printing the message
+- explain setInterval doesn't know about AngularJS's update mechanism, AngularJS doesn't poll for updates
+- show using $scope.$appy()
+	- generally bad practice
+	- 95% of the time there is a better way 
+	- show better way by checking the $$phase
+- use $interval service instead of setInterval
+- 
+
+
 
 Controller Service/Factor Injectiong and Minification
 -----------------------------------------------
