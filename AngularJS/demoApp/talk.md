@@ -78,7 +78,7 @@ add "ng-model="yourName"" to input field
 - add coloring of field
 - add the status fields
 
-(15 mins) Controllers, Binding and more
+(10 mins) Controllers, Binding and more
 -----------------
 - AngularJS is an MVC framework and all we've dealt with is the View part of MVC
 - explain **ng-app="myApp"**
@@ -100,6 +100,12 @@ Scope Inheritance Demo
 	- Context for expressions. 
 	- Arranged in a hierarchy
 	- Scopes can watch expressions and propagate events
+
+Controller Service/Factor Injectiong and Minification
+-----------------------------------------------
+- DON'T SHOW DEMO YET!!!
+- Show the javascript and html first.
+- Q: What do you do you think the third {{name}} will have printed to the screen?
 
 
 Form validation

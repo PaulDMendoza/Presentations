@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="myApp">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+		<script src="javascript.js"></script>
+	</head>
+	<body>
+		<div ng-controller="topController">
+			{{name}}
+			<div ng-controller="nestedController">
+				{{name}}
+			</div>
+			What if name was printed here???
+		</div>
+	</body>
+
+</html>
