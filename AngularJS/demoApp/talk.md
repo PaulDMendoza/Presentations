@@ -114,6 +114,7 @@ Scopes - watchers
 - scenario: sometimes you need to watch a property for changes
 - explain how watchers work
 	- if not bound to the UI, a watcher isn't generated
+	- can watch just a single object, a collection or deep into an object's properties
 - demo watcher example of new and old value
 - demo watcher count example
 - demo :: fast binding syntax and demo
