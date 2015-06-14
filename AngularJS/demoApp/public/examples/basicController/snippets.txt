@@ -1,0 +1,22 @@
+Simple Form Examples 
+--------------------
+ng-model="yourName"
+
+<h1>Hello {{yourName}}!</h1>
+
+
+
+Basic Controller Examples
+-------------------------
+<ul>
+	<li ng-repeat="user in users">
+		{{user.name}}
+	</li>			
+</ul>
+
+
+
+$http.get('/json/users.json')
+        .success(function(json) {
+           $scope.users = json;
+        });

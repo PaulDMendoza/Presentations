@@ -9,14 +9,14 @@ Run **npm start** to start app
 Navigate to http://localhost:3000/index.html
 
 
-Summary
+(1 mins) Summary
 -------
 Summary: Paul Mendoza will show how to build advanced, well designed and performant AngularJS applications. This will cover a quick introduction to AngularJS and then dive into the deep portions of AngularJS that often confuse developers building AngularJS applications. We'll cover topics such as factories, services, directives, minification concerns, $apply vs $digest, routing, proper link handling and more. 
 
 Paul Mendoza is a software development manager and has been building both consumer and enterprise web applications for over ten years. 
 
 
-My Background
+(2 mins) My Background
 -------------
 Took existing non-AngularJS enterprise application and have been adding AngularJS to it over the last couple years.
 
@@ -24,24 +24,29 @@ Created an application from scratch using AngularJS. This is a single page appli
 
 Development experience on both front end and backend. 
 
-Our Goal
+(1 min) Our Goal
 --------
-Quick introduction to the basics of AngularJS.
+- Quick introduction to the basics of AngularJS.
+- Why AngularJS is useful compared to alterntiaves
+- Advanced topics you should know will be most of the talk 
 
-More advanced topics. Should understand how to build complete applications. 
-
-Why AngularJS?
+(5 mins) Why AngularJS?
 --------------
-AngularJS philosophy is that it gives you a complete framework to build an app. You could build an entire app and have AngularJS be the only dependency you pull in. 
-
-AngularJS History
------------------
-Developed by 2009 and maintained now primarily by emloyees at Google. 
+- Developed by 2009 and maintained now by emloyees at Google. 
+- Complete framework to build an app. 
+- You could build an entire app with AngularJS
+- Don't need any jQuery (ie finding things by IDs)
+- Less JavaScript for trivial data binding tasks
+- Use HTML to define data layout meaning easier for designers
+- Bind user interfaces directly to POJO (Plain Old JavaScript Objects) 
+- Write less code
+- Easy to get started with
+- AngularJS can be the complete app or just in parts of a page
 
 AngularJS Basics
 ----------------
-- Show 
-- 
+- Open "SimpleForm" page
+- Importing AngularJS 
 
 
 Form validation
