@@ -43,15 +43,30 @@ Development experience on both front end and backend.
 - Easy to get started with
 - AngularJS can be the complete app or just in parts of a page
 
-AngularJS Basics
+(5 mins) AngularJS Basics
 ----------------
-- Open "SimpleForm" page
-- Importing AngularJS 
+- **Open "SimpleForm.html" file**
+- Goal: As you type your name in, it should display "Hello [your name]"
+- notice importing AngularJS 
+- notice ng-app tag
+add "ng-model="yourName"" to input field
+- add "{{yourName}}"
+- text field
+- typing in field shows 
+- jQuery vs this example
+
+(5 mins) AngularJS Form 2
+------------------
+- **Open SimpleForm2**
+- notice form with submit button
+- notice "ng-submit" logic to increment counter
+- GOAL: Prevent form submission until at least 5 characters in textbox
 
 
 Form validation
 ---------------
-ngMessages
+- Goal: Require the user to input a name greater than 5 characters
+- Add the "button" snippet
 
 Watchers and :: binding
 ----------------------

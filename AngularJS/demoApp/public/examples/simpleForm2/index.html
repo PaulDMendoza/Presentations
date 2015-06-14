@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1>Demo: Form Validation</h1>
+		  <form name="form2" ng-submit="submitCount = submitCount + 1;">
+		    <label>Name:</label>
+		    <input type="text" placeholder="Enter a name here" required minlength="10">
+			<br/>
+		    <button type="submit" ng-disabled="form2.$error">Submit</button> {{submitCount}}
+		  </form>
+		</div>
+	</body>
+</html>
