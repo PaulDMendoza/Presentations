@@ -17,11 +17,5 @@
 			];
   });
   
-  app.filter('voweless', function() {
-	  return function(input) {
-	    return input.replace(/[aeiouAEIOU]/g, '');
-	  };
-	});
-  
 }());
 
