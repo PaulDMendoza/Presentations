@@ -160,6 +160,23 @@ Filters
 - Basic filter demos
 - define your own filter: voweless - removes the vowels from any input
 
+Directives
+-----------
+- Define your own HTML tags or attributes
+- Examples of existing directives
+	- ng-repeat
+	- input
+	- form
+	- ng-app
+	- ng-controller
+	- almost all HTML is an angularJS directive once wrapped in an ng-app
+- you can define your own
+- **helloWorld** example
+- show how the first tag displays output. Bring in the other tag formats and use the **restrict** tag
+	- E = element
+	- A - attribute (default)
+	- C = class
+	- M = Comment !-- directive: my-directive ext --
 
 Performance
 -----------

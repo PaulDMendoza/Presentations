@@ -181,6 +181,16 @@ app.filter('voweless', function() {
 
 | voweless
 
+Directives
+----------
+<br/>
+<span hello-World=""></span>
+<br/>
+<span class="hello-world"></span>
+<!-- directive: hello-world -->
+
+
+
 Links
 ------
 
