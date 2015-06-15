@@ -188,6 +188,9 @@ Directives
 Factories/Services
 ------------------
 - Allow injecting functionality into controllers by name
+- Service instantiated with "new" keyword
+- Factory is just invoking the function and returning the result.
+
 
 Routing
 -------
@@ -198,7 +201,8 @@ Routing
 - Page 2 - Template with a controller
 - Page 3 - Templage and controller that take a URL paramenter
 - Page 4 - Template embedded in HTML
-	- Great for performance when in production. Embed all the templates into the main page. Not great for devleopment. 
+	- Great for performance when in production. Embed all the templates into the main page.  
+- Back button works
 
 Other Random Tips
 -----------------
