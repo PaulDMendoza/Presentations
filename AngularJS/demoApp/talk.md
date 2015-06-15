@@ -138,7 +138,13 @@ Scopes - Apply/Digest
 	- 95% of the time there is a better way 
 	- show better way by checking the $$phase
 - use $interval service instead of setInterval
-- 
+
+Minification
+-------------
+- **minification** folder
+- code is broken, need to fix it.
+- explain: AngularJS injects by reflecting on the names of the properties by default and injecting the values. 
+- fix the controller function definition to use an array
 
 
 
@@ -149,14 +155,11 @@ Controller Service/Factor Injectiong and Minification
 - Q: What do you do you think the third {{name}} will have printed to the screen?
 - show how an object can be modified up the chain
 
-Form validation
----------------
-- Goal: Require the user to input a name greater than 5 characters
-- Add the "button" snippet
+Filters
+-------
+- Basic filter demos
+- define your own filter: voweless - removes the vowels from any input
 
-Watchers and :: binding
-----------------------
-In AngularJS 1.3 one direction binding added using :: syntax. 
 
 Performance
 -----------
