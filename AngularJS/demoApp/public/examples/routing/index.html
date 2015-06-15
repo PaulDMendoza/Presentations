@@ -1,0 +1,24 @@
+<!doctype html>
+<html ng-app="myApp">
+	<head>
+		<script src="/angular/angularjs.js"></script>
+		<script src="/angular/angular-route.js"></script>
+		<script src="javascript.js"></script>
+		<script src="/examples/routing/page2/page2.js"></script>
+		<script src="/examples/routing/page3/page3.js"></script>
+	</head>
+	<body>
+		<h1>Routing</h1>
+		<a href="#/page1">Page 1</a> <a href="#/page2">Page 2</a> <a href="#/page3?message=helloWorld">Page 3</a> <a href="#/page4">Page 4</a>
+		
+		<div ng-view></div>
+		
+	</body>
+	
+	<script id="page4/page4.html" type="text/ng-template">
+		<div>
+			Page 4 embedded in template
+		</div>
+	</script>
+
+</html>

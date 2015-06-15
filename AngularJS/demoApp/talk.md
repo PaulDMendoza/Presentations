@@ -141,11 +141,11 @@ Scopes - Apply/Digest
 
 Minification
 -------------
+- Q: How many of you minify your JavaScript?
 - **minification** folder
 - code is broken, need to fix it.
 - explain: AngularJS injects by reflecting on the names of the properties by default and injecting the values. 
 - fix the controller function definition to use an array
-
 
 
 Controller Service/Factor Injectiong and Minification
@@ -189,10 +189,24 @@ Factories/Services
 ------------------
 - Allow injecting functionality into controllers by name
 
-Performance
------------
-Use Benchpress to test performance. JavaScript to benchmark performance for AngularJS. 
+Routing
+-------
+- **routing** folder
+- Allows building a multi-page application but still have the benefits of performance for a single page application
+- Show route setup in **index.html**
+- Page 1 - Simple template in a different file
+- Page 2 - Template with a controller
+- Page 3 - Templage and controller that take a URL paramenter
+- Page 4 - Template embedded in HTML
+	- Great for performance when in production. Embed all the templates into the main page. Not great for devleopment. 
 
+Other Random Tips
+-----------------
+- ng-cloak - Prevent flashing of the {{expression}} when the page loads
+- Separation of concerns
+	- Controllers should never refer to any DOM element
+	- Controllers shouldn't hold too much business logic. Could you use a directive instead? Maybe nest controllers.
+	- 
 
 Links
 -----
