@@ -183,11 +183,29 @@ app.filter('voweless', function() {
 
 Directives
 ----------
+app.directive('helloWorld', function() {
+	 return {
+		template: 'Hello World'
+	  };
+  });
+
+
+restrict: 'EACM',
+
 <br/>
 <span hello-World=""></span>
 <br/>
 <span class="hello-world"></span>
 <!-- directive: hello-world -->
+
+message="'more text'"
+
+<b>Hello World From Template {{message}}</b>
+
+link: function (scope, element, attrs) {
+        scope.date = new Date();
+      }
+ {{date | date: 'short'}}
 
 
 

@@ -176,7 +176,18 @@ Directives
 	- E = element
 	- A - attribute (default)
 	- C = class
-	- M = Comment !-- directive: my-directive ext --
+	- M = Comment !-- directive: my-directive -- (can't get it to work)
+- **scope** attributes - isolates the scope from the containing controller.
+	- = supports an Angular expression. So if you just want to pass a string use html like **message="''"**
+	- & supports event handlers
+- **link** - allows custom logic and accessing regular text attributes	
+- Things directives can do that I won't show
+	- Directives can communicate
+	- tranclude - extracts content of the element where the directive appears and make it available to the directive.
+
+Factories/Services
+------------------
+
 
 Performance
 -----------
