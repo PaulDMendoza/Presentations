@@ -210,35 +210,17 @@ Other Random Tips
 - Separation of concerns
 	- Controllers should never refer to any DOM element
 	- Controllers shouldn't hold too much business logic. Could you use a directive instead? Maybe nest controllers.
-	- 
-
-Links
------
-ng-src instead of src
-
-ng-href instead of href
-
-Factories and Services
-----------------------
-$http, $routeProvider and others are examples of factories and services
-
-Auto injected into controller based on name using JavaScript reflection
-
-
-Handling minification with controllers
---------------------------------------
-Minification renames inputs to controllers. So our factories and services can't be auto injected.
-
-
-Directives
-----------
-If writing $(element) in controller you need a directive		
-	
+- ng-src and ng-href - use ng-src or ng-href instead of src when putting expressions in the URL	
 	
 Summary
 ------
-- thank you
 - what we learned
+	- basics of AngularJS with some more advanced techinques like 
 	- form validation
 	- blur vs debounce
-	-  
+	- scopes 
+	- watchers
+	- factories
+	- directives
+	- building single page application with routing
+- thank you
