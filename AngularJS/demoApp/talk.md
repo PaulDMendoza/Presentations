@@ -187,7 +187,7 @@ Directives
 
 Factories/Services
 ------------------
-
+- Allow injecting functionality into controllers by name
 
 Performance
 -----------
