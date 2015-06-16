@@ -11,10 +11,9 @@ Navigate to http://localhost:3000/index.html
 
 (1 mins) Summary
 -------
-Summary: Paul Mendoza will show how to build advanced, well designed and performant AngularJS applications. This will cover a quick introduction to AngularJS and then dive into the deep portions of AngularJS that often confuse developers building AngularJS applications. We'll cover topics such as factories, services, directives, minification concerns, $apply vs $digest, routing, proper link handling and more. 
+I'm Paul Mendoza, a software development manager who has been building both consumer and enterprise web applications for over ten years. 
 
-Paul Mendoza is a software development manager and has been building both consumer and enterprise web applications for over ten years. 
-
+I will show how to build advanced, well designed and performant AngularJS applications. This will cover a quick introduction to AngularJS and then dive into the deep portions of AngularJS that often confuse developers building AngularJS applications. We'll cover topics such as factories, services, directives, minification concerns, $apply vs $digest, routing, proper link handling and more. 
 
 (2 mins) My Background
 -------------
